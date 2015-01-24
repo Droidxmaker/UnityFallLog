@@ -19,11 +19,11 @@ public class BoxFallThrougth : MonoBehaviour {
 
         void OnTrigger(Collider myTrigger)
         {
-            var currentPossition = transform.position;
+            var currentPosition = transform.position;
 
             if (myTrigger.gameObject.name == "Box")
             {
-                Debug.Log("Box went throught" + currentPossition); 
+                Debug.Log("Box went throught" + currentPosition); 
             }
         }
 
